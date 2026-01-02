@@ -17,6 +17,7 @@ class DiceRollingSimulator{
         }
 };
 int main() {
+    
     DiceRollingSimulator simulator;
     simulator.rollDice();
     return 0;
