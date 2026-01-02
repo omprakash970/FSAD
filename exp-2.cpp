@@ -17,7 +17,7 @@ class RockPaperScissors {
             else if(choice==2) return "Paper";
             else return "Scissors";
         }
-        int decideWinner(int userChoice, int compChoice){
+        int decideWinner(int userChoice, int compChoice)
             if(userChoice==compChoice) return 0; 
             else if((userChoice==1 && compChoice==3) || 
                     (userChoice==2 && compChoice==1) || 
